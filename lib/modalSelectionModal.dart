@@ -4,9 +4,9 @@ import 'package:flutter_modalselection/types.dart';
 
 class ModalSelectionModal<T> extends StatelessWidget {
 
-  T? selectedEntity;
-  List<T> availableEntitis;
-  GenericDelegate<T?> selectedCallback;
+  final T? selectedEntity;
+  final List<T> availableEntitis;
+  final GenericDelegate<T?> selectedCallback;
 
   ModalSelectionModal({
     super.key,
@@ -17,6 +17,6 @@ class ModalSelectionModal<T> extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("Manca imp");
+    return const Text("Manca imp");
   }
 }

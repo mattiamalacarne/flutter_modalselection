@@ -1,3 +1,5 @@
-## 0.0.1
+## 0.0.1-pre
 
-* TODO: Describe initial release.
+> Note: This package is in pre-release because depends on a pre-release package
+
+- **PRE_RELEASE**: First pre-release for the package

@@ -1,7 +1,8 @@
 name: flutter_modalselection
 description: "Crea un modal con callback di selezione"
-version: 0.0.1
-homepage:
+version: 0.0.1-pre
+homepage: http://brohosoft.mattiamalacarne.com
+repository: https://github.com/mattiamalacarne/flutter_modalselection
 
 environment:
   sdk: '>=3.3.0 <4.0.0'

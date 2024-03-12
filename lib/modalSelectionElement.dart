@@ -3,11 +3,11 @@ import 'package:flutter_modalselection/types.dart';
 
 class ModalSelectionElement<T> extends StatelessWidget {
 
-  T entity;
-  GenericDelegate<T>? onTapCallback;
-  T? selectedEntity;
+  final T entity;
+  final GenericDelegate<T>? onTapCallback;
+  final T? selectedEntity;
 
-  Widget displayElement;
+  final Widget displayElement;
 
   ModalSelectionElement({
     super.key,
@@ -35,8 +35,8 @@ class ModalSelectionElement<T> extends StatelessWidget {
 
 class _EntityDisplayWdget<T> extends StatelessWidget {
 
-  T e;
-  Widget d;
+  final T e;
+  final Widget d;
   _EntityDisplayWdget({super.key, required this.e, required this.d});
 
   @override
