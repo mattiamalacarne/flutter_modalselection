@@ -1,9 +1,5 @@
 # flutter_modalselection
 
-[![ci][ci_badge]][ci_link]
-[![Package: flutter_modalselection][package_badge]][package_link]
-[![Language: Dart][language_badge]][language_link]
-[![License: BSD-3-Clause][license_badge]][license_link]
 
 This Flutter plugin implements a modal selection with selection callback,
 Create an element that hide a selectionlist and update on selection
